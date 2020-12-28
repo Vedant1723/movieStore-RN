@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moviesproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:5:3-78
+11-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:5:20-76
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:6:3-78
+12-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:6:20-75
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:7:3-65
+13-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:7:20-62
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:9:1-75
+15-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:9:18-72
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:10:1-60
+16-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:10:18-58
+17
+18    <application
+18-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:11:5-31:19
+19        android:name="com.moviesproject.MainApplication"
+19-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:12:7-38
+20        android:allowBackup="false"
+20-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:16:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\Vedant\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:14:7-41
+23        android:label="@string/app_name"
+23-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:13:7-39
+24        android:requestLegacyExternalStorage="true"
+24-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:17:7-50
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:15:7-52
+26        android:theme="@style/AppTheme" >
+26-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:18:7-38
+27        <activity
+27-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:19:7-29:18
+28            android:name="com.moviesproject.MainActivity"
+28-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:20:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:22:9-86
+30            android:label="@string/app_name"
+30-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:21:9-41
+31            android:launchMode="singleTask"
+31-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:23:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:24:9-51
+33            <intent-filter>
+33-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:25:9-28:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:26:13-65
+34-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:26:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:27:13-73
+36-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:27:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:30:7-84
+39-->C:\Projects\moviesProject\android\app\src\main\AndroidManifest.xml:30:17-81
+40
+41        <provider
+41-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:9-18:20
+42            android:name="com.imagepicker.FileProvider"
+42-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:13-56
+43            android:authorities="com.moviesproject.provider"
+43-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-60
+44            android:exported="false"
+44-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+45            android:grantUriPermissions="true" >
+45-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-47
+46            <meta-data
+46-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-17:58
+47                android:name="android.support.FILE_PROVIDER_PATHS"
+47-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:17-67
+48                android:resource="@xml/provider_paths" />
+48-->[:react-native-image-picker] C:\Projects\moviesProject\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:17-55
+49        </provider>
+50
+51        <meta-data
+51-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\Vedant\.gradle\caches\transforms-2\files-2.1\58a0708f7cc58d169e3a733a55bec454\okhttp3-integration-4.11.0\AndroidManifest.xml:11:9-13:43
+52            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+52-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\Vedant\.gradle\caches\transforms-2\files-2.1\58a0708f7cc58d169e3a733a55bec454\okhttp3-integration-4.11.0\AndroidManifest.xml:12:13-84
+53            android:value="GlideModule" />
+53-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] C:\Users\Vedant\.gradle\caches\transforms-2\files-2.1\58a0708f7cc58d169e3a733a55bec454\okhttp3-integration-4.11.0\AndroidManifest.xml:13:13-40
+54    </application>
+55
+56</manifest>
